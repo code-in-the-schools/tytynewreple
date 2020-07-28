@@ -17,9 +17,9 @@ console.log("the perimeter of the rectangle is " + thePerim);
 
 function getArea(){
   var width = rectangle.width;
-  var length = rectangle.length;
-  var solution = width * length;
-  result solution;
+  var length = 100;
+  var result = width * length;
+  return result;
 }
 var theArea = getArea();
 console.log("the area of the rectangle is " + theArea);
