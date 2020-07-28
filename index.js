@@ -7,8 +7,19 @@ function countPerimeter () {
   var width = rectangle.width;
   var height = rectangle.height;
   var result = width + height + width + height;
-  console.log("the perimeter of the rectangle is " + result);
+  //console.log(width);
+  return result;
 }
 
-countPerimeter();
+var thePerim = countPerimeter();
+console.log("the perimeter of the rectangle is " + thePerim);
+//countPerimeter();
 
+function getArea(){
+  var width = rectangle.width;
+  var length = rectangle.length;
+  var solution = width * length;
+  result solution;
+}
+var theArea = getArea();
+console.log("the area of the rectangle is " + theArea);
